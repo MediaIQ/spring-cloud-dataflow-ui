@@ -237,6 +237,11 @@ a:link, a:visited {
     .value {
       word-break: break-all;
     }
+
+    .value-scroll {
+      overflow-y: scroll;
+      height: 3rem;
+    }
   }
 
   &.lg-key {
